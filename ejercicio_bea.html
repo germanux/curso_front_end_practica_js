@@ -14,7 +14,7 @@
     <script>
         function main(){
             var session=getCookie("CookieName");
-            if(session!=""){
+            if(session!=""&&session!=null){
                 $("#nomencookie").css("display", "hidden");
                 $("#almcookie").css("display", "hidden");
                 $("#welcome").html("Bienvenido/a de vuelta "+session+".");
@@ -45,11 +45,11 @@
                 var c = ca[i];
                 while (c.charAt(0) == ' ') {
                 c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
             }
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length, c.length);
-            }
-        }
         return "";
         }
         $(document).ready(main());
