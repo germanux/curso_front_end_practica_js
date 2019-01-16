@@ -8,21 +8,51 @@
 </head>
 <body>
     <input type="text" name="" id="nomencookie">
-    <input type="button" value="Almacena" id="almcookie" onclick="main();">
+    <input type="button" value="Almacena" id="almcookie">
     <div id="welcome"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>
         function main(){
-            var session=getCookie("SesionActiva")
+            var session=getCookie("CookieName");
             if(session!=""){
                 $("#nomencookie").css("display", "hidden");
                 $("#almcookie").css("display", "hidden");
                 $("#welcome").html("Bienvenido/a de vuelta "+session+".");
             }
             else{
-
+                $("#almcookie").on("click", function(){
+                    var nomcookie=$("#nomencookie").val();
+                    if(nomcookie==""||nomcookie==null){
+                        alert("Introduce tu nombre");
+                    }
+                    else{
+                        setCookie(nomcookie);
+                    }
+                });
             }
         }
+        function setCookie(cvalue) {
+            var d = new Date();
+            d.setTime(d.getTime() + (7*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = "CookieName=" + cvalue + "; expires=" + expires + "; path=/";
+        }
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+        }
+        $(document).ready(main());
     </script>
 </body>
 </html>
