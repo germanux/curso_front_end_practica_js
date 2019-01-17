@@ -15,8 +15,8 @@
         function main(){
             var session=getCookie("CookieName");
             if(session!=""&&session!=null){
-                $("#nomencookie").css("display", "hidden");
-                $("#almcookie").css("display", "hidden");
+                $("#nomencookie").css("display", "none");
+                $("#almcookie").css("display", "none");
                 $("#welcome").html("Bienvenido/a de vuelta "+session+".");
             }
             else{
@@ -27,15 +27,17 @@
                     }
                     else{
                         setCookie(nomcookie);
+                        
                     }
                 });
             }
+            //document.cookie = "CookieName=Pepito; expires=Thu, 18 Dec 2019 12:00:00 UTC; path=/;";
         }
         function setCookie(cvalue) {
             var d = new Date();
             d.setTime(d.getTime() + (7*24*60*60*1000));
             var expires = "expires="+ d.toUTCString();
-            document.cookie = "CookieName=" + cvalue + "; expires=" + expires + "; path=/";
+            document.cookie = "CookieName=" + cvalue + "; expires=" + expires + "; path=/;";
         }
         function getCookie(cname) {
             var name = cname + "=";
