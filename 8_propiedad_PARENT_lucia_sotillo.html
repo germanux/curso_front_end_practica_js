@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<!-- Realizado por Lucía Sotillo -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <title>EJERCICIO PROPIEDAD</title>
+
+
+  <style>
+  
+  body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    margin:10em;
+
+  }
+
+  input {
+
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px;
+    background-color: rgb(61, 61, 61);
+    color:white;
+    margin-right: 10px;
+  }
+
+  input:hover {
+
+    background-color: white;
+    color:rgb(61, 61, 61);
+   
+
+  }
+
+  #inputElemento {
+    background-color: white;
+    color:rgb(61, 61, 61);
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10px;
+    border: 2px solid rgb(158, 63, 63);
+
+  }
+
+  strong {
+
+    color:rgb(158, 63, 63);
+
+  }
+  
+  </style>
+</head>
+<body>
+  <!-- QUE EL USUARIO CAMBIE EL COLOR con una palabra:
+    https://www.w3schools.com/jsref/prop_win_parent.asp -->
+
+    Escribe el color que quieras de fondo: <strong>"colorRojo", "colorVerde", "colorAmarillo", "colorAzul", "colorRosa"</strong>. <br/>Si le das cuando está vacío se vuelve <strong>blanco</strong>  de nuevo.
+    <br/>
+    <br/>
+    Escribe el color que quieras de letra: <strong>"letraRojo", "letraVerde", "letraAmarillo", "letraAzul", "letraRosa", "letraBlanco"</strong>. Si le das cuando está vacío se vuelve <strong>negro</strong> de nuevo.
+
+    <br/>
+    <br/>
+
+    <strong>Color a elegir:</strong> <input type="text" id="inputElemento"/>
+    
+    <br/>
+    <br/>
+
+    <input type="button" value="cambiar color FONDO" onclick="cambiarColorInput();"/>
+
+    <input type="button" value="cambiar color LETRA" onclick="cambiarColorLetraInput();"/> 
+
+    <input type="button" value="BOTÓN UNIVERSAL" onclick="cambiarUniversalInput();"/> 
+
+    <br/>
+    <br/>
+
+    
+  <script src="js/jquery-3.3.1.js"></script>
+
+
+  <script>
+
+    //COGER UNA PROPIEDAD Y HACER ALGO CON ELLA. MOSTRAR EL DATO... Window parent, <frameset></frameset>
+
+    //ACCIÓN 1 de window parent:
+    //cambio el color de lo que seleccione con "parent"
+    //parent.document.body.style.backgroundColor = "red";
+
+
+    //CAMBIA COLOR DE FONDO DE TODO EL BODY
+    function cambiarColorInput() {
+      var  x; 
+      x = $("#inputElemento").val();//aquí escriben y se comparte la casilla entre ambos botones
+
+      if (x == "colorRojo"){
+        parent.document.body.style.backgroundColor = "red";
+      } else if (x == "colorVerde"){
+        parent.document.body.style.backgroundColor = "green";
+      } else if (x == "colorAmarillo"){
+        parent.document.body.style.backgroundColor = "yellow";
+      } else if (x == "colorAzul"){
+        parent.document.body.style.backgroundColor = "blue";
+      } else if (x == "colorRosa"){
+        parent.document.body.style.backgroundColor = "pink";
+      } else {
+        parent.document.body.style.backgroundColor = "white";
+      }
+    }
+
+    //CAMBIA COLOR DE LETRA DE TODO EL BODY
+    function cambiarColorLetraInput() {
+      var  x; 
+      x = $("#inputElemento").val();//aquí escriben y se comparte la casilla entre ambos botones
+
+      if (x == "letraRojo"){
+        parent.document.body.style.color = "red";
+      } else if (x == "letraVerde"){
+        parent.document.body.style.color = "green";
+      } else if (x == "letraAmarillo"){
+        parent.document.body.style.color = "yellow";
+      } else if (x == "letraAzul"){
+        parent.document.body.style.color = "blue";
+      } else if (x == "letraRosa"){
+        parent.document.body.style.color = "pink";
+      } else if (x == "letraBlanco"){
+        parent.document.body.style.color = "white";
+      } else {
+        parent.document.body.style.color = "black";
+      }
+    }
+
+
+    //LO MISMO PERO CON UN SOLO BOTÓN
+    function cambiarUniversalInput() {
+      var  x; 
+      x = $("#inputElemento").val();//aquí escriben y se comparte la casilla entre ambos botones
+
+      //COLOR FONDO
+      if (x == "colorRojo"){
+        parent.document.body.style.backgroundColor = "red";
+      } else if (x == "colorVerde"){
+        parent.document.body.style.backgroundColor = "green";
+      } else if (x == "colorAmarillo"){
+        parent.document.body.style.backgroundColor = "yellow";
+      } else if (x == "colorAzul"){
+        parent.document.body.style.backgroundColor = "blue";
+      } else if (x == "colorRosa"){
+        parent.document.body.style.backgroundColor = "pink";
+      } else {
+        parent.document.body.style.backgroundColor = "white";
+      }
+    
+
+      //COLOR LETRA
+      if (x == "letraRojo"){
+        parent.document.body.style.color = "red";
+      } else if (x == "letraVerde"){
+        parent.document.body.style.color = "green";
+      } else if (x == "letraAmarillo"){
+        parent.document.body.style.color = "yellow";
+      } else if (x == "letraAzul"){
+        parent.document.body.style.color = "blue";
+      } else if (x == "letraRosa"){
+        parent.document.body.style.color = "pink";
+      } else if (x == "letraBlanco"){
+        parent.document.body.style.color = "white";
+      } else {
+        parent.document.body.style.color = "black";
+      }
+    
+    }
+
+
+  //ACCIÓN 2 de window parent:
+  //alerta de donde está la localización de la ventana seleccionada
+  window.open("", "", "width=200, height=100");//tamaño ventana
+  alert(window.parent.location);
+
+
+
+
+
+    
+  </script>
+</body>
+</html>

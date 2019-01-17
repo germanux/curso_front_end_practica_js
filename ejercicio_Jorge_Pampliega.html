@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .inputclass {
+            width: 250px;
+            border: none;
+            border-bottom: solid #5b566b;
+        }
+
+        .inputButton {
+            border: solid #5b566b;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+
+        }
+
+        .inputButton:hover {
+            background-color: #5a5a5a;
+            color: white;
+        }
+
+        .inputButton:active {
+            background-color: #5a5a5a;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .divPosition {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -75px;
+            margin-left: -75px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divPosition"><button class="inputButton" onclick="otherURL()">Tienda personal</button>
+        <br />
+        <br />
+        <button class="inputButton" onclick="otherURL1()">IMDB</button>
+    </div>
+    <script>
+        function otherURL() {
+            location.replace("https://www.redbubble.com/people/kirtash1/shop?asc=u") // no vuelve a la página anterior
+        }
+
+        function otherURL1() {
+            location.assign("https://www.imdb.com/title/tt7929626/?ref_=ttfc_fc_tt") // si vuelve a la página anterior.
+        }
+    </script>
+
+</body>
+
+</html>
