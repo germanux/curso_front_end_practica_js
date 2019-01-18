@@ -9,7 +9,9 @@
 <body style="background-color: black">
 
 <div id="info" style="color: white"></div>
+
 <div id="img_german"><img src="https://avatars3.githubusercontent.com/u/4741566?s=460&v=4" style="border-radius: 100%; border: 3px solid white" onmouseover="doAction();" alt="No image"></div>
+
 <div id="placeholder" style="color: white"><h1>Click me!</h1></div>
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -60,9 +62,9 @@ crossorigin="anonymous"></script>
         // if (xSize < 200) xSize = 200;
         // if (ySize < 200) ySize = 200;
 
-        newXPos = lerp(newXPos, xMarg, 0.3);
-        newYPos = lerp(newYPos, yMarg, 0.3);
-                    
+        newXPos = lerp(newXPos, xMarg, 0.5);
+        newYPos = lerp(newYPos, yMarg, 0.5);
+
         var valoresCss = new Object();
 
         valoresCss.marginLeft = newXPos + "px";
@@ -72,6 +74,7 @@ crossorigin="anonymous"></script>
 
         var resultX = Math.abs(newXPos - xMarg);
         var resultY = Math.abs(newYPos - yMarg);
+        
         if (resultX < Number.EPSILON && resultY < Number.EPSILON)
             animating = false;
     }
