@@ -6,9 +6,36 @@
 	</head>
 	<body>
 		<h1>Proyectos</h1>
-		<a href="ejercicio_bea.html">Ejercicio</a>
+		<a href="ejercicio_bea.html">Ejercicio Bea</a>
+		<a href="ejercicio_joana.html">Ejercicio Joana</a>
+		<a href="ejercicio_Jorge_Ayllon.html">Ejercicio</a>
+		<a href="ejercicio_miguel_hernandez.html">Ejercicio</a>
+		<a href="ejercicio_Paula_Santiago.html">Ejercicio</a>
+		<a href="8_propiedad_PARENT_lucia_sotillo.html">Ejercicio</a>
+		<a href="9_Ejercicio_Jorge_Pampliega.html">Ejercicio</a>
+		<a href="ejercicio_Sara.html">Ejercicio</a>
+		<a href=".html">Ejercicio</a>
+		<a href=".html">Ejercicio</a>
+		<a href=".html">Ejercicio</a>
+		<a href=".html">Ejercicio</a>
+		<a href=".html">Ejercicio</a>
+		<a href=".html">Ejercicio</a>
 	</body>
+	<script src="js/jquery-3.3.1.js"></script>
 	<script>
-		console.log("Hola mundo!");
+$(document).ready(function() {
+	
+	$("a").html(function() {
+		return "Practica " + $(this).attr("href");
+	});
+	
+	$("a").append("<br/>")
+});
+console.log("Hola mundo!");
 	</script>
 </html>
+
+
+
+
+
