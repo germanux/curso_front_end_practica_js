@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Protocolo</title>
+</head>
+<body>
+
+    <div>
+    <button onclick="dameProtocolo()">Protocol de la página actual</button>
+    <p id="ejercicio_christina_rotari.html"></p>
+    </div>
+
+<style>
+
+div {
+    margin: 200px;
+    text-align: center;
+}
+
+</style>
+<script>
+
+function dameProtocolo() {
+    var protocolString = location.protocol;
+    document.getElementById("ejercicio_christina_rotari.html").innerHTML = protocolString;   
+}
+
+</script>
+
+</body>
+</html>
