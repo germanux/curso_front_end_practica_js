@@ -1,0 +1,23 @@
+<html lang="es">
+	<head>
+		<title>T&iacute;tulo</title>
+		<meta charset="UTF-8"/>	
+		<meta name= "viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="x-UA-compatible" content="ie = edge">
+		<title> Search</title>	
+	</head>
+	<body>
+		 <a>Añade "?" seguido de texto a la URL y pulsa enter </a>
+		</div>
+
+		<script >
+			var searchString=location.search;
+			if(searchString.length==0) //si la longitud de la string es = a 0
+				document.write("");
+			else 
+				document.write("<br>Querystring de la URL: " + searchString.substring(1, )); 
+				//he añadido el substring para que nos devuelva el texto sin ?
+		</script>
+
+	</body>
+</html>
