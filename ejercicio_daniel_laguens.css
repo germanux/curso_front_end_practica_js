@@ -1,0 +1,42 @@
+a,a:visited{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+    text-decoration:none;
+    background-color: black;
+    color:white;
+}
+
+body{
+    background-color:gainsboro;
+}
+
+.w3chools_titulo_gris{
+        font-family: "coiny" bold ;
+        font-size: 50px;
+        color: grey;
+}
+.titulo_com_verde{
+    font-family: "Arial";
+    font-size: 50px;
+    color: green;
+}
+.title_largest_developer{
+        text-decoration:none;
+        font-family: "Arial";
+        font-size: 25px;
+        color: grey;
+
+}
+
+
+h1.links_w3schools{
+    text-align:center;
+    background-color: grey;
+    color:white;
+}
+.col-sm-4_b{
+    text-align:center;
+}
