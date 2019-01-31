@@ -1,4 +1,4 @@
-Mejoras:
+﻿Mejoras:
 	- Menú:
 	
 	
@@ -13,6 +13,7 @@ Mejoras:
 		al hacer click directamente va al listado completo.
 	Filtros dentro de la vista "archivo", igual que nuevo y eliminar.
 	- Footer:
+		- Es intrusivo. Se podría meter un tamaño mínimo en el contenido (body) para que el footer quede abajo
 	
 	
 	
@@ -21,6 +22,7 @@ Mejoras:
 	Footer demasiado grande.
 	Footer un poco más separado del último párrafo.
 	- Alta:
+		- Las pestañas Nuevo y Eliminar podría quitarse una vez estemos registrados todos para evitar que nadie externo añada sus movidas
 	
 	- Baja:
 	
