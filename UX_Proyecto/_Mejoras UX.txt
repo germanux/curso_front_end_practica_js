@@ -1,4 +1,4 @@
-﻿Mejoras:
+Mejoras:
 	- Menú:
 		-Mejoras semánticas: 
 			-"de 1 en uno" >> Galería de portfolios/ Album
@@ -9,6 +9,11 @@
 			al pasar el ratón por encima se despliega el menú.
 			al hacer click directamente va al listado completo.
 		- Filtros dentro de la vista "archivo", igual que nuevo y eliminar.
+		- Inicio puede enlazarse con “Gestor Portfolios” en lugar de tener un botón propio y también separarlo un poco del menu para que se diferencia y se note que es el logo. Quizás también destacarlo con otra tipografía para que se entienda como logo de la web.
+		- Nuevo y eliminar no se entiende bien la función. Quizás se pueden meter los dos en una categoría superior que se llame “Gestión de proyectos” o algo similar.
+		- Quizás en lugar de un menu desplegable en “Ver portfolios” funcionaría mejor con un menu en la propia página para filtrar como se quiere visualizar.
+		- Eliminar todos los botones que no tengan función real.	
+
 	- Footer:
 		- Es intrusivo. Se podría meter un tamaño mínimo en el contenido (body) para que el footer quede abajo
 		- Footer demasiado grande.
@@ -16,6 +21,10 @@
 		- El logo tiene una fuente excesivamente grande
 		- El botón "Contact Us" está descentrado
 		- Fijar el footer
+		-"Introduzca technologia">> Buscar por habilidades tecnicas
+		- Es intrusivo. Se podría meter un tamaño mínimo en el contenido (body) para que el footer quede abajo
+		- Footer demasiado grande.
+		- Footer un poco más separado del último párrafo.
 	- Alta:
 		- Cambiar este formulario (o el de baja) para tener un estilo más diferenciado
 		- Las pestañas Nuevo y Eliminar podría quitarse una vez estemos registrados todos para evitar que nadie externo añada sus movidas
@@ -23,7 +32,6 @@
 	- Baja:	
 		- Cambiar este formulario (o el de alta) para tener un estilo más diferenciado
 		- En Nuevo, hacer los botones un poco más pequeños y centrados para que haya espacio entre ellos.
-		- 
 	
 	- Listado:
 		- Demasiado simple, poco llamativo

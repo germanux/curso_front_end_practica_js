@@ -1,7 +1,7 @@
-﻿Inicio puede enlazarse con “Gestor Portfolios” en lugar de tener un botón propio y separarlo un poco del menu para que se note que es el logo
+1. Inicio puede enlazarse con “Gestor Portfolios” en lugar de tener un botón propio y separarlo un poco del menu para que se note que es el logo
 
-Nuevo y eliminar no se entiende bien la función
-Quizás se pueden meter los dos en una categoría superior que se llame “Gestión de proyectos”
+2. Nuevo y eliminar no se entiende bien la función
+Quizás se pueden meter los dos en una categoría superior que se llame “Gestión de proyectos”. (Rocio de acuerdo!!!)
 
 Ver portfolios
 Quizás en lugar de un menu desplegable en el nav funcionaría mejor con un apartado en la página  para filtrar como se quiere visualizar, para que cuando estés en ese apartado puedas cambiar el modo de visualización sin tener que abrir el menu desplegable cada vez
@@ -16,3 +16,7 @@ Y eliminar todos los botones que no tengan función real como sing up, login, lo
 -una vez que ves los porfolios de uno en uno, no puede volver atrás.
 -nivel semántico: de 1 en uno>> galería de portfolios
 		Introduzca technologia>> buscar por habilidades tecnicas
+
+-En "ver portafolios" -> listado
+Listado CVs y Portfolios
+Usando de bootstrap: .table .table-striped .table-bordered .table-hover .table-sm -> debería ir en muy pequeñito y quizá con un * y en gris
