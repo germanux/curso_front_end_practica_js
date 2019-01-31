@@ -1,0 +1,35 @@
+CAMBIOS EN GESTOR PORTFOLIOS 
+Lucía Sotillo
+
+
+-Que no suba el footer y se quede siempre abajo. 
+
+-El botón de eliminar en el menú carece de sentido práctico, si ELIMINA secciones que aparezca en las mismas.
+
+-Los márgenes internos esta mal, por ejemplo en el LISTADO, cuando no hay nada dentro el margen botón está mal y molesta a la vista.
+
+-Diferenciar más los h1 y h2, y demás, ya que se hacen muy bloque sin diferenciar.
+
+-MENÚ en hamburguesa pierde el fondo blanco y se ve traslúcido.
+
+-En 1 en 1 la foto yo no la pondría en círculo, quedaría mejor en cuadrado y quizás bordes redondeado o algún estilo que tendríamos que pensar.
+
+-Todos los estilos de 1 en 1, la descripción, los enlaces… Cambiar estilos de todo.
+
+-Las flechas para ir de uno a otro que solo aparezcan arriba o abajo, o de aparecer en los dos que sea en medio, y con un marcador de cuantos portafolios hay: << 0, 1, 2, … >> 
+Si las mantenemos a los lados, fijarnos en que se descolocan en otras versiones que no son PC.
+
+-El footer no está mal.
+
+-En NUEVO, el estilo hay que cambiarlo, los botones suelen ser de menor tamaño y colocados a la derecha o centrados usando el ancho de la casilla, sin el texto de “nombre ficheros”.
+
+-EN INICIO ya enlazaría a lo de añadir portafolio.
+
+-ELIMINAR en la propia página de la tabla (LISTADO DE PORTAFOLIO) y también el enlace de añadir nuevo. 
+
+-Que lo de añadir nuevo esté en varias partes de la web, ya que es importante que quede clara la función. (Personalmente lo pondría en INICIO, LISTADO DE PORTAFOLIO, MENÚ).
+
+-Meter un color o dos más en la página.
+
+-Meter una página de INICO más visual, con imágenes. 
+
