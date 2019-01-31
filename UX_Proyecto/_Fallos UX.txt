@@ -4,6 +4,7 @@
 	- Menú:
 		Mezcla de idiomas español e inglés.
 		El botón de eliminar no parece tener ninguna funcionalidad.
+		BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB	
 	
 	- Footer:
 		Está escrito todo en inglés, a diferencia del contenido de la web. 
