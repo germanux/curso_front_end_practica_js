@@ -1,5 +1,10 @@
-Mejoras:
+﻿Mejoras:
 	- Menú:
+		-Mejoras semánticas: 
+			-"de 1 en uno" >> Galería de portfolios/ Album
+			-"Introduzca technologia">> Buscar por habilidades tecnicas
+			
+
 	
 	- Footer:
 	
