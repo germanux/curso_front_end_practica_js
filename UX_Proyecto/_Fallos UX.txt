@@ -1,3 +1,4 @@
+﻿- Errores:
 <<<<<<< HEAD
 ﻿- Errores:
 	- Menú:
@@ -44,16 +45,16 @@
 Mejoras:
 	- Menú:
 	
-	- Footer:
+	- Footer: El logo tiene una fuente excesivamente grande
+	El botón "Contact Us" está descentrado
+	Fijar el footer
 	
-	- Alta:
+	- Alta: Cambiar este formulario (o el de baja) para tener un estilo más diferenciado
 	
-	- Baja:
+	- Baja: Cambiar este formulario (o el de alta) para tener un estilo más diferenciado
 	
-	- Listado:
+	- Listado: Demasiado simple, poco llamativo
 	
-	- Slider 1 en 1:
-=======
->>>>>>> 889346824dc28fcc641bbbdad9b8fd32b5c2a5f1
+	- Slider 1 en 1: Centrado
 	
 	
