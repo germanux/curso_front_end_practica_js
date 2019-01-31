@@ -1,14 +1,60 @@
-- Errores:
+﻿- Errores:
+<<<<<<< HEAD
+﻿- Errores:
 	- Menú:
+		Mezcla de idiomas español e inglés.
+		El botón de eliminar no parece tener ninguna funcionalidad.
 	
 	- Footer:
+		Está escrito todo en inglés, a diferencia del contenido de la web. 
+		Se levanta cuando accedes a alguno de los apartados. 
+		
+=======
+﻿- Errores: Cambiar el diseño página.
+	- Menú:
+		*No lo haría desplegable
+		
 	
+	- Footer:
+		*Es enorme, reducir.
+	
+>>>>>>> 36743f6a9496c774946f289b65bd8e5e552b6142
 	- Alta:
+		*Poco margen arriba y abajo.
+		*Botones muy grandes
+		*Colores horribles
 	
 	- Baja:
+		*No funciona el botón eliminar
 	
 	- Listado:
+<<<<<<< HEAD
+		Hay código interno revelado al usuario. 
+=======
+		*Muy junto. 
+		*Cambiar título
+		*cambiar estilo tabla, es feo
+>>>>>>> 36743f6a9496c774946f289b65bd8e5e552b6142
 	
 	- Slider 1 en 1:
+<<<<<<< HEAD
+		*Necesita más margen
+		*Mejor organización del contenidio
+		*Centrado
+		*Foto más pequeña en otra posición y sin círculo.
+Mejoras:
+	- Menú:
+	
+	- Footer: El logo tiene una fuente excesivamente grande
+	El botón "Contact Us" está descentrado
+	Fijar el footer
+	
+	- Alta: Cambiar este formulario (o el de baja) para tener un estilo más diferenciado
+	
+	- Baja: Cambiar este formulario (o el de alta) para tener un estilo más diferenciado
+	
+	- Listado: Demasiado simple, poco llamativo
+	
+	- Slider 1 en 1: Centrado
 	
 	
