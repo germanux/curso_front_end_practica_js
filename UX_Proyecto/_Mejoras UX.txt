@@ -1,11 +1,37 @@
 Mejoras:
 	- Menú:
 	
+	
+	
+	
+	
+	
+	Menus ver portfolios --> archivo.
+	En el Header suprimiría la pestaña de inicio o el enlace de "gestor Portfolios"
+	La pestaña para ver los Portfolios lo simplificaría un poco más:
+		al pasar el ratón por encima se despliega el menú.
+		al hacer click directamente va al listado completo.
+	Filtros dentro de la vista "archivo", igual que nuevo y eliminar.
 	- Footer:
 	
+	
+	
+	
+	
+	Footer demasiado grande.
+	Footer un poco más separado del último párrafo.
 	- Alta:
 	
 	- Baja:
+	
+	
+	
+	
+	
+	
+	
+	
+	En Nuevo, hacer los botones un poco más pequeños y centrados para que haya espacio entre ellos.
 	
 	- Listado:
 	
