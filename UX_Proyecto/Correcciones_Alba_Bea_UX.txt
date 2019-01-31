@@ -1,0 +1,2 @@
+- La cantidad de tags
+- Cómo sube el footer (ahoga el contenido)
