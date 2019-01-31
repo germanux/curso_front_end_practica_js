@@ -9,4 +9,4 @@
 - La pestaña para ver los Portfolios lo simplificaría un poco más:
    al pasar el ratón por encima se despliega el menú.
    al hacer click directamente va al listado completo.
--En Nuevo, hacer los botones un poco más pequeños y centrados para que haya espacio entre ellos.
+- En Nuevo, hacer los botones un poco más pequeños y centrados para que haya espacio entre ellos.
