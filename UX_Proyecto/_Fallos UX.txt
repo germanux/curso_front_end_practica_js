@@ -20,6 +20,7 @@
 		*cambiar estilo tabla, es feo
 	
 	- Slider 1 en 1:
+<<<<<<< HEAD
 		*Necesita más margen
 		*Mejor organización del contenidio
 		*Centrado
@@ -36,5 +37,7 @@ Mejoras:
 	- Listado:
 	
 	- Slider 1 en 1:
+=======
+>>>>>>> 889346824dc28fcc641bbbdad9b8fd32b5c2a5f1
 	
 	
