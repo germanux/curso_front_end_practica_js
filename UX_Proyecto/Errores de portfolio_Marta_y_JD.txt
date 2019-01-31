@@ -1,0 +1,32 @@
+- Cuando quieres eliminar un portfolio no es intuitivo el que tengas que poner solo el nombre de la persona del portfolio,
+se podría introducir un texto , o algo donde se dijera como poder eliminar los portfolios.
+
+- Cuando actualizas la página se siguen quedando en la tabla los portfolios añadidos anteriormente y si los quieres borrar
+actualizando la página no se borran y os tienes que eliminar
+
+- Cuando estas en enseñar en uno por uno si le das a next cuando estas en la última no vuelve a la primera ( aunque no se
+si debería de hacerlo...)
+
+- Cuando le das a añadir y no tienes el campo completo aunque te diga que tienes que añadir texto se añade en la tabla de 
+portfolios.
+
+- Hasta que no actualizas la página no se actualizan los cambios de la tabla de los portfolios.
+
+- En varias pestañs el footer se sube muy hacia arriba y deja a la vista el fondo de la página y queda mal.
+
+- El login y el sing up no es intuitivo por el idioma.
+
+- El botón eliminar no funciona y se podría prescindir de él.
+
+- Para ser más eficiente, cuando estas en la tabla viendo todos los portfolios se podría hacer un botón de eliminar
+para hacerlo más rápido y eficiente que tener que coger el nombre volver a cambiar de pestaña y darle a eliminar.
+
+- El buscador no funciona.
+
+- La lista de catergorías no funciona, aparte al añadir la tabla no hay una sección para poner la categoría.
+
+- © 2018 Copyrigh --->  © 2019 Copyrigh
+
+- Inicio se queda resaltado todo el rato pinches donde pinches.
+
+- 
