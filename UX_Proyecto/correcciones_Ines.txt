@@ -1,4 +1,4 @@
-Inicio puede enlazarse con “Gestor Portfolios” en lugar de tener un botón propio y separarlo un poco del menu para que se note que es el logo
+﻿Inicio puede enlazarse con “Gestor Portfolios” en lugar de tener un botón propio y separarlo un poco del menu para que se note que es el logo
 
 Nuevo y eliminar no se entiende bien la función
 Quizás se pueden meter los dos en una categoría superior que se llame “Gestión de proyectos”
@@ -12,3 +12,7 @@ Y eliminar todos los botones que no tengan función real como sing up, login, lo
 “Por categorias” no funciona
 
 “De 1 en 1” - si vemos el siguiente cv se bloquea y no deja volver al anterior, parece que ya no puede acceder los datos
+
+-una vez que ves los porfolios de uno en uno, no puede volver atrás.
+- nivel semántico: de 1 en uno>> galería de portfolios
+		Introduzca technologia>> buscar por habilidades tecnicas
