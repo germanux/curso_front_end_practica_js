@@ -1,2 +1,5 @@
 - La cantidad de tags
 - Cómo sube el footer (ahoga el contenido)
+1º se sube el logo
+2º no pasa correctamente las imágenes ni la info
+3º se añade un fichero, pero no aparece en vista
