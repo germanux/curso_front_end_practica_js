@@ -1,4 +1,4 @@
-- Errores:
+Mejoras:
 	- Menú:
 	
 	- Footer:
@@ -10,5 +10,3 @@
 	- Listado:
 	
 	- Slider 1 en 1:
-	
-	
