@@ -1,16 +1,29 @@
-- Errores:
+﻿- Errores: Cambiar el diseño página.
 	- Menú:
+		*No lo haría desplegable
+		
 	
 	- Footer:
+		*Es enorme, reducir.
 	
 	- Alta:
+		*Poco margen arriba y abajo.
+		*Botones muy grandes
+		*Colores horribles
 	
 	- Baja:
+		*No funciona el botón eliminar
 	
 	- Listado:
+		*Muy junto. 
+		*Cambiar título
+		*cambiar estilo tabla, es feo
 	
 	- Slider 1 en 1:
-	
+		*Necesita más margen
+		*Mejor organización del contenidio
+		*Centrado
+		*Foto más pequeña en otra posición y sin círculo.
 Mejoras:
 	- Menú:
 	
