@@ -1,13 +1,18 @@
-- Errores:
+﻿- Errores:
 	- Menú:
+		Mezcla de idiomas español e inglés.
+		El botón de eliminar no parece tener ninguna funcionalidad.
 	
 	- Footer:
-	
+		Está escrito todo en inglés, a diferencia del contenido de la web. 
+		Se levanta cuando accedes a alguno de los apartados. 
+		
 	- Alta:
 	
 	- Baja:
 	
 	- Listado:
+		Hay código interno revelado al usuario. 
 	
 	- Slider 1 en 1:
 	
