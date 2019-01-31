@@ -1,0 +1,7 @@
+- Arreglar footer intrusivo (meter un tamaño mínimo de div de contenido)
+- Nuevo usuario y eliminar podría quitarse una vez estemos registrados, o solo verse cuando estemos logueados
+
+-El botón de Eliminar no tiene funcionalidad. Está dentro de Nuevo.
+-La busqueda te envía a página inexistente.
+-No es posible subir ficheros.
+
