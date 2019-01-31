@@ -3,6 +3,7 @@
 		Mezcla de idiomas español e inglés.
 		El botón de eliminar no parece tener ninguna funcionalidad.
 		*No lo haría desplegable
+		AAAAAAAAAAAAAAAAAA
 	
 	- Footer:
 		Está escrito todo en inglés, a diferencia del contenido de la web. 
